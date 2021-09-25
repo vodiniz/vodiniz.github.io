@@ -117,7 +117,7 @@ body {
 }
 
 .projetos li:hover{
-    color: red;
+    color: rgb(20, 176, 248);
 }
 
 #space {
