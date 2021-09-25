@@ -5,7 +5,12 @@
 body {
     background: linear-gradient( 70deg, rgb(2, 46, 95) 15.26%, rgb(37, 131, 238) 99%);
     background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
     font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
     
 }
 
