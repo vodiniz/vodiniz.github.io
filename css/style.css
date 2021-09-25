@@ -72,8 +72,13 @@ body {
     top:-140px;
 }
 
+#logo:hover{
+    filter: invert(100%);
+}
+
 .logos{
     align-items: right;
+    justify-content: flex-end;
 }
 
 

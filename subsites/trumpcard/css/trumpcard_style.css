@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  width:100%;
+  height:100%;
+  min-height: 854px;
+  background-image: url('https://wallpaperaccess.com/full/109345.png');
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  padding-bottom: 20vh;
+  
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #FFCC00;
+  margin: 5px 0;
+  font-size: 50px;
+}
+
+button {
+  padding: .8rem 1.5rem;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  background-color: #245AAA;
+  color: #FFCC00;
+}
+button:disabled,
+button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+
+
+h2 {
+  color: #245AAA;
+  background-color: #FFCC00;
+  margin: auto;
+  width: 350px;
+  padding: 20px; ;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  border-radius: 12px;
+  
+}
+
+#carta-jogador, #carta-maquina {
+  width: 360px;
+  height: 500px;
+  overflow: auto;
+  margin-bottom: 20px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  background-size: 350px 300px;
+  background-repeat: no-repeat;
+  background-position-x: 5px;
+  background-position-y: 10px;
+}
+
+#carta-jogador h3 {
+  text-align: center;
+}
+
+.carta-imagem {
+  height: 100px;
+  margin: 10px;
+}
+
+.carta-imagem img {
+  width: 100%;
+  height: 100%;
+}
+
+#resultado{
+  text-align: center;
+  margin: auto;
+  background-color: #245AAA;
+  color: #FFCC00;
+  font-size: 35px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  padding: 1rem;
+  width: 300px;
+  padding-left: 30px;
+  border-radius: 8px;
+  opacity: 0.0;
+}
+
+.--spacing {
+  margin-left: 2.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.carta-subtitle {
+  -webkit-transform: rotate(-5deg); 
+  -moz-transform: rotate(-5deg); 
+  -ms-transform: rotate(-5deg); 
+  -o-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+  z-index: 2;
+  font-size: 30px;
+  position: absolute;
+  top: 34px;
+  width:99%;
+  text-align:center;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#cartas {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.options {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+
+.choose-attribute{
+  
+  margin-bottom: 30px;
+  padding: 5px;
+  color: #FFCC00;
+  background: #245AAA;
+  font-weight: bold;
+  padding: 8px 10px;
+  width: 100px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.pokemon-image{
+  position: absolute;
+  top:100px;
+  left:85px;
+}
+
+.carta-status{
+  margin-bottom: -3px;
+  position: absolute;
+  right: 30px;
+  bottom: 3px;
+  text-align:right;
+  font-size: 25px;
+  line-height: 11px;
+  font-family: 'Didact Gothic', sans-serif;
+  color:#1A5DAC;
+}
