@@ -4,9 +4,9 @@
 
 body {
     background: linear-gradient( 70deg, rgb(2, 46, 95) 15.26%, rgb(37, 131, 238) 99%);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-size: cover;
     font-family: 'Montserrat', sans-serif;
+    
 }
 
 
