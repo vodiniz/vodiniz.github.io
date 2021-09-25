@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <title>
-            Conversor
+            Conversor Simples
         </title>
         <link rel="stylesheet" href="css/conversor_style.css">
     </head>
@@ -10,7 +10,7 @@
 
     <body>
         <div class="container">
-            <h1>Conversor simples para unidades</h1>
+            <h1>Um Simples Conversor</h1>
             <div class="break"></div>
 
             <div class="div-inputs">
@@ -51,6 +51,14 @@
                 <div class="spacer"></div>
                 <input type="number" class='input' placeholder="0.30" id='ft_m' onkeyup="to_m()">
                 <p class="text"oz>pés</p>
+            </div>
+
+            <div class="div-inputs">
+                <input type="number" class='input' id = "brl_usd" placeholder="1" onkeyup="to_brl()">
+                <p class="text">BRL</p>
+                <div class="spacer"></div>
+                <input type="number" class='input' placeholder="5.33" id='usd_brl' onkeyup="to_usd()">
+                <p class="text"oz>USD</p>
             </div>
 
         </div>

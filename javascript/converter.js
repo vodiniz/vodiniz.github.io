@@ -80,3 +80,35 @@ function to_m(){
     }
     document.getElementById('m_ft').value = (ft*3.28084).toFixed(2);
 }
+
+function to_brl(){
+    var brl = document.getElementById('brl_usd').value;
+    if (brl == ''){
+        brl = brl_conversion_rate;
+    }
+    document.getElementById('usd_brl').value = (brl/brl_conversion_rate).toFixed(2);
+}
+
+function to_usd(){
+    var usd = document.getElementById('usd_brl').value;
+    if (usd == ''){
+        usd = brl_conversion_rate;
+    }
+    document.getElementById('brl_usd').value = (usd*brl_conversion_rate).toFixed(2);
+}
+
+
+
+function brl_usd_value(){
+    var url = 'https://economia.awesomeapi.com.br/last/USD-BRL'
+    var httpreq = new XMLHttpRequest();
+    httpreq.open("GET",url,false);
+    httpreq.send(null);
+    return JSON.parse(httpreq.responseText)['USDBRL']['ask'];
+}
+
+brl_conversion_rate = brl_usd_value()
+
+
+
+
