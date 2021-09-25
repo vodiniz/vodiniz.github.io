@@ -97,7 +97,7 @@ function randomCard(){
         enemy_card = create_random_card();
     }
     
-    document.getElementById('carta-maquina').innerHTML = "<img src ='card_back.png' style = 'width: inherit; height: inherit; position: absolut;'>";
+    document.getElementById('carta-maquina').innerHTML = "<img src ='assets/images/card_back.png' style = 'width: inherit; height: inherit; position: absolut;'>";
     document.getElementById('btnSortear').disabled = true;
     choose_stats();
     document.getElementById('resultado').style.opacity = 0;
@@ -107,7 +107,7 @@ function randomCard(){
 function show_player_card(){
     var div_player_card = document.getElementById('carta-jogador');
 
-    var moldura = "<img src ='card_design.png' style = 'width: inherit; height: inherit; position: absolut;'>";
+    var moldura = "<img src ='assets/images/card_design.png' style = 'width: inherit; height: inherit; position: absolut;'>";
     var tagHTML = "<div id = 'opcoes' class='carta-status'>";
     var card_text = ""
     for (var attribute in player_card.attributes){
@@ -127,7 +127,7 @@ function show_player_card(){
 function show_enemy_card(){
     var div_enemy_card = document.getElementById('carta-maquina');
 
-    var moldura = "<img src ='card_design.png' style = 'width: inherit; height: inherit; position: absolut;'>";
+    var moldura = "<img src ='assets/images/card_design.png' style = 'width: inherit; height: inherit; position: absolut;'>";
     var tagHTML = "<div id = 'opcoes' class='carta-status'>";
     var card_text = ""
     for (var attribute in enemy_card.attributes){

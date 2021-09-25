@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Conversor
+        </title>
+        <link rel="stylesheet" href="css/conversor_style.css">
+    </head>
+
+
+    <body>
+        <div class="container">
+            <h1>Conversor simples para unidades</h1>
+            <div class="break"></div>
+
+            <div class="div-inputs">
+                <input type="number" class='input' id = "km_miles" placeholder="1" onkeyup="to_miles()">
+                <p class="text">km</p>
+                <div class="spacer"></div>
+                <input type="number" class='input' placeholder="1.61" id='miles_km' onkeyup="to_km()">
+                <p class="text">milhas</p>
+            </div>
+
+            <div class="div-inputs">
+                <input type="number" class='input' id = "celsius_fahrenheit" placeholder="24" onkeyup="to_fahrenheit()">
+                <p class="text">°C</p>
+                <div class="spacer"></div>
+                <input type="number" class='input' placeholder="75.20" id='fahrenheit_celsius' onkeyup="to_celsius()">
+                <p class="text">°F</p>
+            </div>
+
+            <div class="div-inputs">
+                <input type="number" class='input' id = "kg_lb" placeholder="1" onkeyup="to_lb()">
+                <p class="text">kg</p>
+                <div class="spacer"></div>
+                <input type="number" class='input' placeholder="2.20" id='lb_kg' onkeyup="to_kg()">
+                <p class="text">lb</p>
+            </div>
+
+            <div class="div-inputs">
+                <input type="number" class='input' id = "ml_oz" placeholder="1" onkeyup="to_oz()">
+                <p class="text">ml</p>
+                <div class="spacer"></div>
+                <input type="number" class='input' placeholder="0.03" id='oz_ml' onkeyup="to_ml()">
+                <p class="text"oz>oz</p>
+            </div>
+
+            <div class="div-inputs">
+                <input type="number" class='input' id = "m_ft" placeholder="1" onkeyup="to_ft()">
+                <p class="text">m</p>
+                <div class="spacer"></div>
+                <input type="number" class='input' placeholder="0.30" id='ft_m' onkeyup="to_m()">
+                <p class="text"oz>pés</p>
+            </div>
+
+        </div>
+        <script src="javascript/converter.js"></script>
+    </body>
+</html>
