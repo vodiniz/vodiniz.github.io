@@ -81,21 +81,24 @@ function to_m(){
     document.getElementById('m_ft').value = (ft*3.28084).toFixed(2);
 }
 
+
 function to_brl(){
-    var brl = document.getElementById('brl_usd').value;
+    var brl = document.getElementById('usd_brl').value;
     if (brl == ''){
-        brl = brl_conversion_rate;
+        brl = 1;
     }
-    document.getElementById('usd_brl').value = (brl/brl_conversion_rate).toFixed(2);
+    document.getElementById('brl_usd').value = (brl/brl_conversion_rate).toFixed(2);
 }
 
 function to_usd(){
-    var usd = document.getElementById('usd_brl').value;
-    if (usd == ''){
-        usd = brl_conversion_rate;
+    var brl = document.getElementById('brl_usd').value;
+    if (brl == ''){
+        brl = 1;
     }
-    document.getElementById('brl_usd').value = (usd*brl_conversion_rate).toFixed(2);
+    document.getElementById('usd_brl').value = (brl*brl_conversion_rate).toFixed(2);
 }
+
+
 
 
 
@@ -108,6 +111,7 @@ function brl_usd_value(){
 }
 
 brl_conversion_rate = brl_usd_value()
+document.getElementById('usd_brl').placeholder = (1/brl_conversion_rate).toFixed(2)
 
 
 
