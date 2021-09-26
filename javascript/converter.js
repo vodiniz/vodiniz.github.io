@@ -82,24 +82,21 @@ function to_m(){
 }
 
 
-function to_brl(){
-    var brl = document.getElementById('usd_brl').value;
-    if (brl == ''){
-        brl = 1;
-    }
-    document.getElementById('brl_usd').value = (brl/brl_conversion_rate).toFixed(2);
-}
-
 function to_usd(){
     var brl = document.getElementById('brl_usd').value;
     if (brl == ''){
         brl = 1;
     }
-    document.getElementById('usd_brl').value = (brl*brl_conversion_rate).toFixed(2);
+    document.getElementById('usd_brl').value = (brl/brl_conversion_rate).toFixed(2);
 }
 
-
-
+function to_brl(){
+    var usd = document.getElementById('usd_brl').value;
+    if (usd == ''){
+        usd = 1/brl_conversion_rate;
+    }
+    document.getElementById('brl_usd').value = (usd*brl_conversion_rate).toFixed(2);
+}
 
 
 function brl_usd_value(){

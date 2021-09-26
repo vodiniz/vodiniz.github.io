@@ -7,6 +7,28 @@ function request_Json(pokemon_number){
     
 }
 
+function async_request_Json(pokemon_number){
+    url = 'https://pokeapi.co/api/v2/pokemon/' + pokemon_number.toString
+    var xhr = new XMLHttpRequest();
+    xhr.open("GET", url, true);
+    xhr.onload = function (e) {
+      if (xhr.readyState === 4) {
+        if (xhr.status === 200) {
+          console.log(xhr.responseText);
+        } else {
+          console.error(xhr.statusText);
+        }
+      }
+    };
+    xhr.onerror = function (e) {
+      console.error(xhr.statusText);
+    };
+    xhr.send(null); 
+    console.log(xhr.responseText)
+    return JSON.parse(xhr.responseText)
+
+}
+
 function get_card_attributes(json){
     hp = json.stats[0].base_stat
     attack = json.stats[1].base_stat
@@ -76,7 +98,7 @@ function choose_random_card_number(){
 }
 
 function create_random_card(){
-    var json = request_Json(choose_random_card_number());
+    var json = async_request_Json(choose_random_card_number());
     var pokemon_name = get_pokemon_name(json);
     if (check_card_already_exist(pokemon_name)){
         json = request_Json(choose_random_card_number());
