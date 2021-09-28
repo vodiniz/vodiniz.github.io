@@ -5,7 +5,7 @@ var movies = ['https://images.justwatch.com/poster/173369637/s276/watchmen-o-fil
 ]
 
 for (let i=0; i< movies.length; i++){
-    document.write("<img class='movie-poster' src ='" + movies[i] + "' width = '276' height='392' ></img>");
+    document.write("<img class='movie-poster' src ='" + movies[i] + "' width = '342' height='513' ></img>");
 }
 
 function addPoster() {

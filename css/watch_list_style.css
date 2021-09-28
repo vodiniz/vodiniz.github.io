@@ -70,7 +70,7 @@ margin: 10px;
   align-items: right;
   height: 25px;
 }
-#submit-button {
+.input-button {
   order: 0;
   color: #ffffff;
   background: #da1e26;
@@ -80,5 +80,13 @@ margin: 10px;
   border-radius: 4px;
   cursor: pointer;
   transition: 0.3s;
+}
+
+.movie-container {
+  /* display: flex;
+  flex-wrap: wrap; */
+  max-width: 2000px;
+  margin: auto;
+  justify-content: left;
 }
 

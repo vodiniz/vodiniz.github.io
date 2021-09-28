@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <title>
-            Imersão Dev - Aula 04
+            My Watch List
         </title>
         <link rel="stylesheet" href="css/watch_list_style.css">
     </head>
@@ -19,25 +19,18 @@
 
             <div class='input-container'>
 
-                <input type="url" id="poster-url" class='url'/ placeholder="Digite o nome do filme">>
+                <input type="url" id="search-text" class='url'/ placeholder="Digite o nome do filme">
 
                 <span class='right'>
-
-                    <button class='input-button' type="submit" id='submit-button' onclick="addPoster()" > Adiconar Poster </button>
+                    <button class='input-button' type="submit" id='movie-name' onclick="search_movie()" > Procurar Filme</button>
 
                 </span>
 
             </div>
 
 
-            <a>
-                <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
-            </a>
-
-            <div class ='movie-container' id='movies'>
-                <script src="javascript/watch_list.js"></script>
-            </div>
-
+            <div class ='movie-container' id='movies'></div>
+        <script src="javascript/watch_list.js"></script>
     </body>
     
 </html>
