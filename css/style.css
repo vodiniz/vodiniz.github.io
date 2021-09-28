@@ -48,6 +48,8 @@ body {
     border: 3px solid rgb(255, 255, 255);
     margin: 10px;
     box-shadow: 0 0 15px rgb(15, 130, 184);
+    min-width: 300px;
+    min-height: 300px;
 }
 
 #profile-photo:hover{
