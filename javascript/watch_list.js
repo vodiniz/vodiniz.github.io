@@ -31,7 +31,7 @@ function search_movie(){
 }
 
 async function request_tmdb_api(search_text){
-    let api_url = "http://189.82.247.196:8000/search_api?search-text="+search_text;
+    let api_url = "https://189.82.247.196:8000/search_api?search-text="+search_text;
     let response = await fetch(api_url);
     let json = await response.json();
     let poster_path = json['results'][0]['poster_path'];
