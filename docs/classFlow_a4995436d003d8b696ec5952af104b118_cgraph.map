@@ -1,0 +1,9 @@
+<map id="Flow::Flow" name="Flow::Flow">
+<area shape="rect" id="Node000001" title="Copy constructor." alt="" coords="5,56,91,83"/>
+<area shape="rect" id="Node000002" href="$classFlow.html#a34d6b868ba50fc09c72548121f363b10" title="Get the name field on Flow." alt="" coords="142,5,252,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="89,53,140,35,142,40,91,58"/>
+<area shape="rect" id="Node000003" href="$classFlow.html#a1f3858f90d141807377c2640fb5dd0fc" title="Get the source field on Flow." alt="" coords="139,56,255,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="91,67,123,67,123,72,91,72"/>
+<area shape="rect" id="Node000004" href="$classFlow.html#aff8a0f8ca8dc50d37c92ab7556e172b5" title="Get the target field on Flow." alt="" coords="141,107,253,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="91,81,142,99,140,104,89,86"/>
+</map>

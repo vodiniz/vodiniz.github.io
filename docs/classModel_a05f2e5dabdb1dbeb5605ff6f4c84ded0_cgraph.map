@@ -1,0 +1,5 @@
+<map id="Model::add" name="Model::add">
+<area shape="rect" id="Node000001" title="Add a Flow pointer to the flows container." alt="" coords="5,5,91,32"/>
+<area shape="rect" id="Node000002" href="$classModel.html#a61db3ce77d42741a911a44aba7b320c7" title="Function for getting the size of the flows container." alt="" coords="139,5,260,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="91,16,123,16,123,21,91,21"/>
+</map>

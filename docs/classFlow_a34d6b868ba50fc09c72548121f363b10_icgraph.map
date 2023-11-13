@@ -1,0 +1,7 @@
+<map id="Flow::getName" name="Flow::getName">
+<area shape="rect" id="Node000001" title="Get the name field on Flow." alt="" coords="166,31,276,57"/>
+<area shape="rect" id="Node000002" href="$classFlow.html#a27af85e46a53aa5ff8c8016f012b0c24" title="Copy constructor." alt="" coords="19,5,104,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="150,35,104,28,105,23,151,30"/>
+<area shape="rect" id="Node000003" href="$classFlow.html#ae153a1f37345b026a1e4f5ee88d0d40f" title="Overload for = operator." alt="" coords="5,56,118,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="151,58,119,63,118,58,150,53"/>
+</map>

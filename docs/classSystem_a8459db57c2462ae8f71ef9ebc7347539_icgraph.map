@@ -1,0 +1,9 @@
+<map id="System::getValue" name="System::getValue">
+<area shape="rect" id="Node000001" title="Get the value field on System." alt="" coords="183,56,307,83"/>
+<area shape="rect" id="Node000002" href="$classSystem.html#ab96adee223ec4fd0da0edeff35ec3599" title="Overload for = operator." alt="" coords="5,5,135,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="181,54,118,35,119,30,182,48"/>
+<area shape="rect" id="Node000003" href="$classModel.html#ad31ab57899deb9e33c9fd0312553383c" title="Run the simulation." alt="" coords="29,56,111,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="167,72,111,72,111,67,167,67"/>
+<area shape="rect" id="Node000004" href="$classSystem.html#a603517c422f63503086dc7935e2398f3" title="Copy constructor." alt="" coords="10,107,130,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="182,90,119,109,118,104,181,85"/>
+</map>

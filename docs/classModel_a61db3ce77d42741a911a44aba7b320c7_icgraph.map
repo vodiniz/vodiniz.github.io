@@ -1,0 +1,13 @@
+<map id="Model::flowsSize" name="Model::flowsSize">
+<area shape="rect" id="Node000001" title="Function for getting the size of the flows container." alt="" coords="306,56,427,83"/>
+<area shape="rect" id="Node000002" href="$classModel.html#a05f2e5dabdb1dbeb5605ff6f4c84ded0" title="Add a Flow pointer to the flows container." alt="" coords="173,5,258,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="309,53,257,35,258,30,311,48"/>
+<area shape="rect" id="Node000003" href="$classModel.html#ad4fcd314fc1c2f581e8469c8767587bc" title="Add a System pointer to the systems container." alt="" coords="173,56,258,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="291,72,258,72,258,67,291,67"/>
+<area shape="rect" id="Node000006" href="$classModel.html#ad31ab57899deb9e33c9fd0312553383c" title="Run the simulation." alt="" coords="174,107,257,133"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="311,91,258,109,256,104,309,86"/>
+<area shape="rect" id="Node000004" href="$classModel.html#a427a805ff8293a1a55ec9e1e98900405" title="Copy constructor." alt="" coords="15,31,115,57"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="157,62,115,55,116,50,157,57"/>
+<area shape="rect" id="Node000005" href="$classModel.html#aad5eadb989dae838966ef6d27769aea1" title="Overload for = operator." alt="" coords="5,81,125,108"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="158,82,125,87,124,82,157,76"/>
+</map>

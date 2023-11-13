@@ -1,0 +1,7 @@
+<map id="Model::removeSystem" name="Model::removeSystem">
+<area shape="rect" id="Node000001" title="Remove a System pointer from the systems container." alt="" coords="5,31,158,57"/>
+<area shape="rect" id="Node000002" href="$classModel.html#a618af90bbfd2b01cd0bc12d7d45739ed" title="Return a iterator to the first System in the container." alt="" coords="206,5,353,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="158,32,190,27,191,33,159,37"/>
+<area shape="rect" id="Node000003" href="$classModel.html#a8e232479172c73b87313feba7c0d409c" title="Returns an iterator referring to the past&#45;the&#45;end element in the systems container." alt="" coords="211,56,348,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="159,51,196,56,195,61,158,56"/>
+</map>

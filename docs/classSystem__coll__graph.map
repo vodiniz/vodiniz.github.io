@@ -1,0 +1,7 @@
+<map id="System" name="System">
+<area shape="rect" id="Node000001" title="Class for representing stock, quantities, mass or even energy." alt="" coords="21,139,107,357"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,5,51,75"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="29,74,32,114,33,121,27,122,26,115,24,74"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="76,5,127,75"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="98,75,89,122,84,121,93,74"/>
+</map>

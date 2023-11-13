@@ -1,0 +1,7 @@
+<map id="System::operator=" name="System::operator=">
+<area shape="rect" id="Node000001" title="Overload for = operator." alt="" coords="5,31,135,57"/>
+<area shape="rect" id="Node000002" href="$classSystem.html#a703d2f8140d276094d078f1b9c229638" title="Get the Name field on System." alt="" coords="183,5,310,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="135,32,167,27,168,33,135,37"/>
+<area shape="rect" id="Node000003" href="$classSystem.html#a8459db57c2462ae8f71ef9ebc7347539" title="Get the value field on System." alt="" coords="184,56,309,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="135,51,169,56,168,61,135,56"/>
+</map>

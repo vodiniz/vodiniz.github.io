@@ -1,0 +1,19 @@
+<map id="Model::Model" name="Model::Model">
+<area shape="rect" id="Node000001" title="Copy constructor." alt="" coords="5,157,105,184"/>
+<area shape="rect" id="Node000002" href="$classModel.html#ad4fcd314fc1c2f581e8469c8767587bc" title="Add a System pointer to the systems container." alt="" coords="184,31,269,57"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="64,155,99,112,124,88,151,67,168,58,171,63,154,72,127,92,103,116,68,159"/>
+<area shape="rect" id="Node000005" href="$classModel.html#ab323d582a76cf60eb75b581f38551525" title="Return a iterator to the first Flow in the container." alt="" coords="162,81,291,108"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="79,154,152,118,167,111,169,116,154,122,82,159"/>
+<area shape="rect" id="Node000006" href="$classModel.html#ab1d42dc05fe348f907372f3139b6c0f5" title="Returns an iterator referring to the past&#45;the&#45;end element in the flows container." alt="" coords="167,132,286,159"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="105,161,151,154,152,159,106,166"/>
+<area shape="rect" id="Node000007" href="$classModel.html#a951151667f4f186256198e02272a932d" title="Get the name field on Flow." alt="" coords="168,183,285,209"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="106,175,153,182,152,188,105,181"/>
+<area shape="rect" id="Node000008" href="$classModel.html#a618af90bbfd2b01cd0bc12d7d45739ed" title="Return a iterator to the first System in the container." alt="" coords="153,233,300,260"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="82,182,154,219,169,225,167,230,152,224,79,187"/>
+<area shape="rect" id="Node000009" href="$classModel.html#a8e232479172c73b87313feba7c0d409c" title="Returns an iterator referring to the past&#45;the&#45;end element in the systems container." alt="" coords="158,284,295,311"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="68,183,103,225,127,249,154,270,163,275,160,279,151,274,124,253,99,229,64,186"/>
+<area shape="rect" id="Node000003" href="$classModel.html#a61db3ce77d42741a911a44aba7b320c7" title="Function for getting the size of the flows container." alt="" coords="358,5,479,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="269,36,342,26,342,31,270,41"/>
+<area shape="rect" id="Node000004" href="$classModel.html#ac63ddb11d77ea78d5d427af1f8d154fc" title="Function for getting the size of the systems container." alt="" coords="348,56,488,83"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="270,47,333,55,332,61,269,52"/>
+</map>
